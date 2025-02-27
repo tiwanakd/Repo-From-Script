@@ -10,7 +10,7 @@ do
   read -r -p "Repository Name: " repoName
 done
 
-echo "This is a Repository created by Scrip. Name Provided: $repoName" >> README.md
+echo "# $repoName" >> README.md
 
 git init -b main
 git add .
